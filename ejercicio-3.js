@@ -14,7 +14,7 @@ function selectorConversion(input) {
     case 1:
       input = Number(prompt("Ingrese los grados Centigrados"));
 
-      if (typeof input != Number) {
+      if (typeof input != "number") {
         alert("No es un formato valido");
         break;
       }
@@ -26,7 +26,7 @@ function selectorConversion(input) {
     case 2:
       input = Number(prompt("Ingrese los grados Farenheit"));
 
-      if (typeof input != Number) {
+      if (typeof input != "number") {
         alert("No es un formato valido");
         break;
       }
